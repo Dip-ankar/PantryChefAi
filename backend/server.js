@@ -13,7 +13,7 @@ connectDB();
 
 
 app.use(cors({
-  origin: "https://pantry-chef-ai-4sk6.vercel.app/",
+  origin: "https://pantry-chef-ai-4sk6-git-main-dip-ankars-projects.vercel.app/",
   credentials: true
 }));
 app.use(express.json()); 
