@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'https://pantry-chef-ai-4sk6-git-main-dip-ankars-projects.vercel.app/api', 
+  baseURL: 'http://localhost:3000/api', 
   headers: {
     'Content-Type': 'application/json',
   },
